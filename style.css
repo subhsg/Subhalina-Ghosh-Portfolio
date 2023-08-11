@@ -1,0 +1,793 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* NAVBAR CSS  */
+.color-white {
+    color: white;
+}
+
+.color-blue {
+    color: #2b2b44;
+}
+
+.color-green {
+    color: rgb(59, 177, 130);
+}
+
+.color-pink {
+    color: #f4cadd;
+}
+
+button {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px 14px;
+    background-color: #2b2b44;
+    font-weight: lighter;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.1s ease all;
+}
+
+.navbar {
+    /* border:2px solid white solid black; */
+    width: 100%;
+    height: 4.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#logo {
+    /* border:2px solid white solid blue; */
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar nav {
+    /* border:2px solid white solid red; */
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar nav li {
+
+    list-style: none;
+    margin: 2rem;
+    font-size: 1.1rem;
+    color: #5a5a5a;
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+
+.navbar nav li:hover {
+    color: #28288c;
+}
+
+
+
+/* HOME CSS */
+
+.infoContainer {
+    /* border:2px  solid yellow; */
+    background-color: #2b2b44;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 40rem;
+
+}
+
+.devInfo {
+    /* border:2px  solid green; */
+    width: 70vw;
+    padding: 2rem;
+}
+
+.devInfo div {
+    padding: 0.5rem;
+}
+
+.hi {
+    font-size: 1rem;
+    color: rgb(59, 177, 130);
+
+}
+
+.name {
+    font-size: 3.7rem;
+    color: white;
+
+}
+
+.role {
+    font-size: 2.8rem;
+    color: gray;
+}
+
+.about {
+    font-size: 1.25rem;
+    color: rgb(59, 177, 130);
+    margin: 0.31rem;
+}
+
+
+.buttons {
+    margin-top: 1.87rem;
+}
+
+.buttons button:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#contactButton {
+    margin-left: 3.2rem;
+}
+
+.devPic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ABOUT ME CSS */
+
+.aboutContainer {
+    display: flex;
+    width: 100%;
+    min-height: 35rem;
+    padding: 2rem 0rem;
+}
+
+#devImg {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#devImg img {
+    width: 15rem;
+    height: 20rem;
+    margin: 1.6rem;
+}
+
+.aboutBtn {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0.625rem 2.75rem;
+    background-color: #ffffff;
+    font-weight: lighter;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.1s ease all;
+}
+
+.aboutBtn:hover {
+    color: #ffffff;
+    border: 2px solid rgb(59, 177, 130);
+    background-color: rgb(59, 177, 130);
+}
+
+.aboutInfo {
+    width: 70%;
+    margin: 1.6rem;
+}
+
+.aboutNav {
+    height: 100%;
+    width: 100%;
+}
+
+.aboutNavbar nav {
+    padding: 1rem;
+    min-height: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutNavbar nav li {
+    margin: 0rem 1.5rem;
+    list-style: none;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #1d1d2d;
+    transition: 0.2s ease all;
+}
+
+.aboutNavbar nav li:hover {
+    border-bottom: 2px solid rgb(59, 177, 130);
+}
+
+.border-bottom-white {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.border-bottom-active {
+    border-bottom: 2px solid rgb(59, 177, 130);
+}
+
+.navInfo {
+    padding-top: 1rem;
+    padding-left: 1.8rem;
+}
+
+.workExp {
+    margin: 0.625rem 0.32rem;
+    height: 45vh;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    /* font-size: 24px; */
+}
+
+.heading {
+    /* border:2px solid rgb(4, 4, 24); */
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    line-height: 1.6px;
+    color: rgb(4, 4, 24);
+    font-weight: 100px;
+    padding: 0.625rem;
+    margin: 1.25rem;
+    font-size: large;
+
+}
+
+.workExpBody {
+    padding: 10px;
+    margin: 20px;
+    font-weight: bolder;
+}
+
+.languages {
+    border-left: 3px solid rgb(59, 177, 130);
+    list-style-type: none;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.language {
+    padding: 0.6rem;
+}
+
+.language-name {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.language-proficiency {
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+.bullet {
+    background-color: rgb(59, 177, 130);
+    color: rgb(255, 255, 255);
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 9999px;
+    box-shadow: 2px 1px 2px #868686;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+progress {
+    -webkit-appearance: none;
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(180, 180, 180);
+    height: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgb(59, 177, 130);
+}
+
+/*Awards Style*/
+
+.awards {
+    padding: 0.5rem 1rem;
+    border-left: 3px solid rgb(59, 177, 130);
+    padding: 1rem;
+    border-radius: 0.3rem;
+    table-layout: fixed;
+}
+
+.award-info,
+.award-icon {
+    padding: 1rem 0rem 2rem 1rem;
+}
+
+.award-title {
+    font-size: 1.5rem;
+}
+
+.award-desc {
+    color: rgb(77, 77, 77);
+    font-size: 1.1rem;
+}
+
+.award-time {
+    color: rgb(126, 126, 126);
+    font-style: italic;
+    font-size: 1.1rem;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+/*Skills Style*/
+
+.skills {
+    padding: 0.5rem 1rem;
+    border-left: 3px solid rgb(59, 177, 130);
+    padding: 2rem;
+    border-radius: 0.3rem;
+}
+
+.professionalSkills ul,
+.personalSkills ul {
+    list-style-type: none;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.professionalSkills ul li,
+.personalSkills ul li {
+    box-shadow: 1px 1px 2px #dadade;
+    border-radius: 1rem;
+    border: 1px solid rgb(117, 108, 177);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.professionalSkills h3,
+.personalSkills h3 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+/*CONTACT DETAILS CSS  */
+
+.contactContainer {
+    /* border: 2px solid yellow; */
+    background-color: #2b2b44;
+    color: rgb(59, 177, 130);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 400px;
+    width: 100%;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.contactHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+.contactHead {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.contactName {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+.contactInfo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 250px;
+    min-height: 10rem;
+    padding: 1rem;
+    box-shadow: 2px 2px 3px #1d1d2d;
+    border-radius: 0.3rem;
+    color: rgb(0, 0, 0);
+}
+
+.logo {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.contactDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: rgb(91, 91, 91);
+}
+
+.phone {
+    width: 40px;
+    height: 40px;
+}
+
+.mail {
+    width: 40px;
+    height: 40px;
+}
+
+.location {
+    width: 40px;
+    height: 40px;
+}
+
+.linkedin {
+    width: 45px;
+    height: 45px;
+}
+
+.gitHub {
+    width: 45px;
+    height: 45px;
+}
+
+.contactBtn {
+    margin-top: 1rem;
+}
+
+.contactBtn a button {
+
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #2b2b44;
+    cursor: pointer;
+}
+
+.contactBtn a button:hover {
+
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+
+.contactIcons {
+    /* border: 2px solid salmon; */
+    height: 70px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contactIcons div a button {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+
+    border-radius: 6px;
+}
+
+/* FOOTER CSS */
+
+footer {
+    background-color: #2b2b44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 40px;
+}
+
+.footer {
+    background-color: #2b2b44;
+}
+
+#footerArrow {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/*Work Experience Style*/
+.company-data {
+    padding-left: 1px;
+}
+
+.companies {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.companyDetails {
+    border-left: 3px solid rgb(59, 177, 130);
+    border-radius: 0.3rem;
+    padding: 1.6rem 2rem;
+}
+
+.companyHeading {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    gap: 1rem;
+}
+
+.companyNum {
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(59, 177, 130);
+    color: rgb(255, 255, 255);
+    width: 1rem;
+    height: 1rem;
+    left: 1.1rem;
+    top: 0px;
+    border-radius: 9999px;
+    box-shadow: 2px 1px 2px #868686;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.companyTitle {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.companyRole {
+    font-size: 1.3rem;
+    line-height: 1.33333;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    position: relative;
+    color: #c4c4c4;
+}
+
+.companyRoleBar::before {
+    content: "";
+    position: absolute;
+    top: 1.56rem;
+    left: -1rem;
+    height: 100%;
+    width: 2px;
+    border-radius: 9999px;
+    background-color: #c4c4c4;
+    z-index: 0;
+}
+
+.companyRoleList {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.companyRole h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+}
+
+.companyRoleList li {
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+.companyTotalTenure {
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+
+.companyTenureData p {
+    font-weight: lighter;
+    font-size: 1rem;
+    color: gray
+}
+
+.companyTenure {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+/*Education style*/
+.education {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    color: #c4c4c4;
+    gap: 5rem;
+    border-left: 3px solid rgb(59, 177, 130);
+    padding: 0.2rem 3rem;
+    border-radius: 0.3rem;
+}
+
+.educationDetails {
+    padding: 1.5rem 0.5rem;
+}
+
+.education-data {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    position: relative;
+    gap: 0.5rem;
+}
+
+.education-data p {
+    font-weight: lighter;
+    font-size: 1rem;
+    color: gray
+}
+
+.educationInstitution {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.educationTotalTenure {
+    color: rgb(75, 75, 75);
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    display: block;
+}
+
+.educationBar {
+    position: relative;
+}
+
+.educationBar::before {
+    content: "";
+    position: absolute;
+    top: 3.43rem;
+    left: -0.88rem;
+    height: 85%;
+    width: 2px;
+    border-radius: 9999px;
+    background-color: #c4c4c4;
+    z-index: 1;
+}
+
+
+@media only screen and (max-width: 1287px) {
+    html {
+        font-size: 10px;
+    }
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .aboutNavbar nav {
+        padding: 0.5rem;
+        min-height: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .aboutNavbar nav li {
+        font-size: 1.1rem;
+        margin: 0rem 0.5rem;
+    }
+
+    .navInfo {
+        padding-left: 0.8rem;
+    }
+
+    .devInfo {
+        width: 100vw;
+    }
+
+    #logo {
+        font-size: 1.2rem;
+    }
+
+    .companyRoleBar::before {
+        top: 1.56rem;
+        left: -1.3rem;
+        height: 95%;
+    }
+
+    .educationBar::before {
+        top: 3.43rem;
+        left: -1rem;
+        height: 85%;
+    }
+}
