@@ -250,7 +250,7 @@ awards.addEventListener("click", (event) => {
                     On The Spot Award
                 </div>
                 <div class="award-desc">
-                    <span> for outstanding contribution in ST testing</span>
+                    <span> for outstanding contribution in BAT testing</span>
                 </div>
             </td>
             <td class="award-time">
