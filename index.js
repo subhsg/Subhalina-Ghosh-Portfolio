@@ -273,7 +273,7 @@ awards.addEventListener("click", (event) => {
                 </div>
             </td>
             <td class="award-time">
-                <time>- 2022</time>
+                <time>- 2023</time>
             </td>
         </tr>
         <tr class="award">
@@ -292,7 +292,7 @@ awards.addEventListener("click", (event) => {
                 </div>
             </td>
             <td class="award-time">
-                <time>- 2022</time>
+                <time>- 2023</time>
             </td>
         </tr>
     </tbody>
