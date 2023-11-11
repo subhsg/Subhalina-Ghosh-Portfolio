@@ -99,7 +99,7 @@ workExp.addEventListener("click", (event) => {
                 </svg>
                 <div class="companyHeadingText">
                     <h3 class="companyTitle">Tata Consultancy Services</h3>
-                    <div class="companyTotalTenure">2 years 10 months</div>
+                    <div class="companyTotalTenure">3 years </div>
                 </div>
             </div>
             <ul class="companyRoleList">
@@ -107,8 +107,8 @@ workExp.addEventListener("click", (event) => {
                     <h3>System Engineer</h3>
                     <div class="companyTenureData">
                         <p><span><time>Nov 2022</time> - Present<span>&nbsp;&nbsp;
-                                    10
-                                    months</span></span>
+                                    1
+                                    year</span></span>
                         </p>
                         <p>Kolkata, West Bengal, India</p>
                     </div>
